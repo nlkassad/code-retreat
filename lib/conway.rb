@@ -10,6 +10,7 @@ class Cell
   def initialize
     @position = 0
     @alive = false
+    @neighbors = 0
   end
 
   def change_alive
@@ -20,4 +21,7 @@ class Cell
     end
   end
 
+  def get_neighbors
+    self.neighbors
+  end
 end
