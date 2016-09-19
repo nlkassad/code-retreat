@@ -5,6 +5,21 @@
 
 # goin to to a quick commit ok
 
+# outline or more code?
+
+# let me show you what it looks like first'?
+
+# can i get rid of prev
+
+# so thats 5 arrays with five ""things " in them
+
+ # again not sure if useful ot not?
+ # good to have something quick that's tested and working!
+ # reference note call like this initialize_board(5, nil)
+
+ #quick save then build out other sections?
+
+ want ot save commms
 
 # code that was referenced my Jaime at the end of the last messages
 def initialize_board(n, val)
