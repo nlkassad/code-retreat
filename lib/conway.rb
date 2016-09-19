@@ -14,6 +14,20 @@ class World
       @cells << row
     end
   end
+
+def underpop
+  
+end
+
+def overpop
+end
+
+def reproduction
+end
+
+def lives
+end
+
 end
 
 class Cell
