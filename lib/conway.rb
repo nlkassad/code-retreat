@@ -21,6 +21,29 @@
 
  want ot save commms
 
+ # so we have the world should we work on functions or on the attrs of cells?
+
+ # Id like to look at each cell's attrs first/? any ideas so far?
+
+ #look at this code for referencing attrs of cells
+ class A
+  attr_accessor :x, :y
+
+  def initialize(*args)
+    @x, @y = args
+  end
+
+  def attrs
+    instance_variables.map{|ivar| instance_variable_get ivar}
+  end
+end
+
+a = A.new(5,10)
+a.x # => 5
+a.y # => 10
+a.attrs # => [5, 10]
+#reference http://stackoverflow.com/questions/10006889/how-to-get-attributes-that-were-defined-through-attr-reader-or-attr-accessor
+
 # code that was referenced my Jaime at the end of the last messages
 def initialize_board(n, val)
   board = Array.new(n)
