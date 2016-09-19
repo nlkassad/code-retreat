@@ -7,11 +7,13 @@ class World
 
   def make_board
     width.times do |row|
-      [] << row
+      row = []
       height.times do |column|
-
-
-
+        row << Cell.new
+      end
+      @cells << row
+    end
+  end
 end
 
 class Cell
