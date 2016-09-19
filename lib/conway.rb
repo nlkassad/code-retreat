@@ -28,6 +28,10 @@ class World
     @iteration = 0
     @cells = []
   end
+
+  def create_board
+    <<
+  end
 end
 
 change world state
