@@ -15,22 +15,12 @@ class World
     end
   end
 
-def underpop
-  
-end
 
-def overpop
-end
-
-def reproduction
-end
-
-def lives
-end
 
 end
 
 class Cell
+
   def initialize
     @position = 0
     @alive = false
@@ -47,5 +37,19 @@ class Cell
 
   def get_neighbors
     self.neighbors
+  end
+
+  def underpop
+    if neighbors < 2
+      self.
+  end
+
+  def overpop
+  end
+
+  def reproduction
+  end
+
+  def lives
   end
 end
