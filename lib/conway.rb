@@ -4,6 +4,14 @@ class World
     @height = height
     @cells = []
   end
+
+  def make_board
+    width.times do |row|
+      [] << row
+      height.times do |column|
+
+
+
 end
 
 class Cell
